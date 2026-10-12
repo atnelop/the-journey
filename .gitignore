@@ -1,0 +1,29 @@
+# Cache e importações do Godot (gerados automaticamente)
+.godot/
+
+# Builds exportados (o .exe vai pelos Releases/zip, não pelo código)
+/build/
+*.exe
+*.pck
+*.zip
+*.tpz
+
+# Mídia original pessoal (o jogo usa só assets/intro.ogv, já sem metadados)
+*.MP4
+*.mp4
+*.MOV
+*.mov
+*.HEIC
+*.heic
+
+# Credenciais de exportação/assinatura nunca vão para o repositório
+export_credentials.cfg
+*.keystore
+*.jks
+*.pfx
+*.p12
+
+# Sistema
+.DS_Store
+Thumbs.db
+desktop.ini
